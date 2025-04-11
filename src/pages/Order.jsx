@@ -2,12 +2,11 @@ import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title';
 import { products } from '../assets/assets';
-import { div } from 'framer-motion/client';
 import Button from '../shared/Button';
 
 function Order() {
 
-  const {currency,product} = useContext(ShopContext);
+  const {currency} = useContext(ShopContext);
   return (
     <div className='container mx-auto pt-16'>
       <div className='text-2xl'>

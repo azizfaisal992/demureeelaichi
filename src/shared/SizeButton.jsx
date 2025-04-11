@@ -1,5 +1,4 @@
-import { text } from 'framer-motion/client'
-import React from 'react'
+
 
 function SizeButton(text) {
   return (

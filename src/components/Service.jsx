@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "./Title";
+/* eslint-disable */
 import { motion } from "framer-motion";
 
 

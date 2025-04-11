@@ -1,9 +1,10 @@
 import React, { useContext, useEffect } from 'react'
+import { ShopContext } from '../context/ShopContext';
 
 function RelatedProducts({category,subCategory}) {
 
     const{products} = useContext(ShopContext);
-    const [related,setRelated] = useState([]);
+    // const [related,setRelated] = useState([]);
 
     useEffect(()=>{
         if(products.length > 0){

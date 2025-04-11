@@ -32,7 +32,6 @@ import Hero2 from './Hero2.jpg'
 import Hero3 from './Hero3.jpg'
 import Hero4 from './Hero4.jpg'
 import Home from './Home.jpg'
-import { motion } from 'framer-motion';
 
 
 export const assets ={

@@ -89,7 +89,7 @@ function Navbar() {
                 <SearchBar/>
             </div>
             <div className="group relative">
-              <UserRoundPen className="w-6 cursor-pointer" />
+               <Link to='/login'> <UserRoundPen className="w-6 cursor-pointer" /> </Link>
               <div className="group-hover:block hidden bg-[#FAF3E0] absolute dropdown-menu right-0 pt-4">
                 <div className="flex flex-col gap-2 min-w-max py-3 px-5 bg-s-100 text-gray-500 rounded border">
                   <p className="cursor-pointer hover:text-black">My Profile</p>

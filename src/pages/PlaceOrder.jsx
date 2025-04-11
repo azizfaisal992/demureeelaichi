@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
+import Button from '../shared/Button';
+import { useNavigate } from 'react-router-dom';
 
 function PlaceOrder() {
 
   const [method,setMethod] = useState('cod');
+
+  const navigate = useNavigate(); 
   return (
     <div className='container mx-auto flex flex-col sm:flex-row justify-between gap-4 pt-5 sm:pt-14'>
 
@@ -55,6 +59,10 @@ function PlaceOrder() {
              </div>
 
           </div>
+          <div className='mt-5 text-end w-full'>
+          <Button text="PROCEED TO CHECKOUT" onClick={() => navigate('/order')} />
+          </div>
+          
         </div>
       </div>
     </div>

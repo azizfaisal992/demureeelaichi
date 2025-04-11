@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import Blog from './pages/Blog'
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
+import Login from './pages/Login'
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/blog' element={<Blog/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/product/:productId' element={<Product/>} />
+        <Route path='/login' element={<Login/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/place-order' element={<PlaceOrder/>} />
         <Route path='/order' element={<Order/>} />

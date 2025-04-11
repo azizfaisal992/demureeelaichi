@@ -12,7 +12,7 @@ import Cart7 from './Cart7.jpg'
 import Cart8 from './Cart8.jpg'
 import Cart9 from './Cart9.jpg'
 import Cart10 from './Cart10.jpg'
-import Cart11 from './Cart11.jpg'
+// import Cart11 from './Cart11.jpg'
 import Cart12 from './Cart12.jpg'
 import Cart13 from './Cart13.jpg'
 import Cart14 from './Cart14.jpg'
@@ -50,7 +50,7 @@ export const assets ={
   Cart8,
   Cart9,
   Cart10,
-  Cart11,
+  // Cart11,
   Cart12,
   Cart13,
   Cart14,

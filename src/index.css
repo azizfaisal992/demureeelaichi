@@ -6,3 +6,8 @@ a.active hr{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.container{
+  max-width: 1200px!important;
+  margin: 0 auto;
+}

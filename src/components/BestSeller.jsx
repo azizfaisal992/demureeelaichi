@@ -1,7 +1,7 @@
 
 
 
-function BestSeller() {
+function BestSale() {
 
     // const {products} = useContext(ShopContext);
     // const [BestSeller,setBestSeller] = useState([]);
@@ -35,4 +35,4 @@ function BestSeller() {
   )
 }
 
-export default BestSeller
+export default BestSale

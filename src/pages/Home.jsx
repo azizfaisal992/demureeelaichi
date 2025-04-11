@@ -6,7 +6,8 @@ import NewsletterBox from '../components/NewsletterBox'
 import Sponser from '../components/Sponser'
 import GiftCard from '../components/GiftCard'
 import Review from '../components/Review'
-import BestSale from '../components/Bestseller'
+import BestSale from '../components/BestSale'
+
 
 
 

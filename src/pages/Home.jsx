@@ -6,6 +6,7 @@ import NewsletterBox from '../components/NewsletterBox'
 import Sponser from '../components/Sponser'
 import GiftCard from '../components/GiftCard'
 import Review from '../components/Review'
+import Good from '../components/Good'
 // import BestSale from '../components/BestSale'
 
 
@@ -17,6 +18,7 @@ function Home() {
         <Hero/>
         <LatestCollection/>
         <Service/>
+        <Good/>
         {/* <BestSale/> */}
         <NewsletterBox/>
         <Sponser/>
